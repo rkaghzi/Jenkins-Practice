@@ -18,4 +18,4 @@ jobs:
           cd Jenkins/SCD-nodeapp-hello-world
           npm install
       - name: Run app.js
-        run: node Jenkins/SCD-nodeapp-hello-world/app.js
+        run: node SCD-nodeapp-hello-world/app.js
