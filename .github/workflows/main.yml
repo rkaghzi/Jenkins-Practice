@@ -15,7 +15,7 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: |
-          cd Jenkins/SCD-nodeapp-hello-world
+          cd JENKINS/SCD-nodeapp-hello-world
           npm install
       - name: Run app.js
-        run: node SCD-nodeapp-hello-world/app.js
+        run: node JENKINS/SCD-nodeapp-hello-world/app.js
